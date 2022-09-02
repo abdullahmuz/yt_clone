@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            YouTube.com Clone
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/video.css">
+    </head>
+    <body>
+        <!--Test comment-->
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/icon-1.svg" alt="">
+                <img class="youtube-logo" src="icons/icon-2.svg" alt="">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/icon-3.svg" alt="">
+                    <div class="tool-tip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/icon-4.svg" alt="">
+                    <div class="tool-tip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/icon-5.svg" alt="">
+                    <div class="tool-tip">Create</div>
+                </div>
+                <div class="noti-container">
+                    <img class="noti-icon" src="icons/icon-7.svg" alt="">
+                    <div class="noti-count">3</div>
+                    <div class="tool-tip">Notifications</div>
+                </div>
+                <img class="current-user-profile-icon" src="icons/icon-8.jpg" alt="">
+            </div>
+        </header>
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="side-icons/sicon-1.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="side-icons/sicon-2.svg" alt="">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="side-icons/sicon-3.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="side-icons/sicon-4.svg" alt="">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="side-icons/sicon-5.svg" alt="">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="side-icons/sicon-6.svg" alt="">
+                <div>Library</div>
+            </div>
+        </nav>
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/Ep6O0mu7F7k">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+                        <div class="video-time">9:19</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/shroud">
+                            <img class="profile-pic" src="channel-icons/channel-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/Ep6O0mu7F7k">
+                            <p class="video-title">SENTINELS 5 STACK TROLLS RANKED</p>
+                            </a>
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/c/shroud">
+                                    <P class="video-author">Shroud <span>&#10004;</span></P>
+                                    </a>
+                                    <p class="tool-tip">Shroud</p>
+                                </div>
+                            <P class="video-stats">448K views &#183; 1 day ago</P>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/aSxMzbRLYvw">
+                        <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+                        <div class="video-time">19:00</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/CollinSphere">
+                            <img class="profile-pic" src="channel-icons/channel-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/aSxMzbRLYvw">
+                            <p class="video-title">Istanbul Fake Market Spree</p>
+                            </a>
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/c/CollinSphere">
+                                    <P class="video-author">Collin Abroadcast &#10004;</P>
+                                    </a>
+                                    <p class="tool-tip">Collin Abroadcast</p>
+                                </div>
+                            <P class="video-stats">289K views &#183; 2 weeks ago</P>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/Rgx8dpiPwpA">
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="">
+                        <div class="video-time">8:42</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/JomaOppa">
+                            <img class="profile-pic" src="channel-icons/channel-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/Rgx8dpiPwpA">
+                            <p class="video-title">a day in the life of an engineer working from home</p>
+                            </a>    
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/c/JomaOppa">
+                                    <P class="video-author">Joma Tech &#10004;</P>
+                                    </a>
+                                    <p class="tool-tip">Joma Tech</p>
+                                </div>
+                            <P class="video-stats">14M views &#183; 1 year ago</P>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/4SHlY9AoXzc">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
+                        <div class="video-time">9:06</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/mkbhd">
+                            <img class="profile-pic" src="channel-icons/channel-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/4SHlY9AoXzc">
+                            <p class="video-title">OnePlus 10T Impressions: Somebody That You Used to Know</p>
+                            </a>    
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/c/mkbhd">
+                                    <P class="video-author">Marques Brownlee &#10004;</P>
+                                    </a>
+                                    <p class="tool-tip">Marques Brownlee</p>
+                                </div>
+                            <P class="video-stats">588K views &#183; 7 hours ago</P>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/Jwlw1VMu6-k">
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
+                        <div class="video-time">4:59</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/FCBarcelona">
+                            <img class="profile-pic" src="channel-icons/channel-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/Jwlw1VMu6-k">
+                            <p class="video-title">KOUNDE MEETS XAVI & TRAINS WITH HIS TEAMMATES FOR THE 1ST TIME</p>
+                            </a>    
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/c/FCBarcelona">
+                                    <P class="video-author">FC Barcelona &#10004;</P>
+                                    </a>
+                                    <P class="tool-tip">FC Barcelona</P>
+                                </div>
+                            <P class="video-stats">66K views &#183; 41 minutes ago</P>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/pn0PUY0jwGQ">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="">
+                        <div class="video-time">12:10</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/SundasKhalid">
+                            <img class="profile-pic" src="channel-icons/channel-6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/pn0PUY0jwGQ">
+                            <p class="video-title">The Harsh Reality of Being a Data Scientist</p>
+                            </a>    
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/c/SundasKhalid">
+                                    <P class="video-author">Sundas Khalid</P>
+                                    </a>
+                                    <p class="tool-tip">Sundas Khalid</p>
+                                </div>
+                            <P class="video-stats">2.5K views &#183; 8 hours ago</P>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/2isYuQZMbdU">
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="">
+                        <div class="video-time">15:31</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/user/MrBeast6000">
+                            <img class="profile-pic" src="channel-icons/channel-7.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/2isYuQZMbdU">
+                            <p class="video-title">I Gave My 100,000,000th Subscriber An Island</p>
+                            </a>    
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/user/MrBeast6000">
+                                    <P class="video-author">MrBeast &#10004;</P>
+                                    </a>
+                                    <p class="tool-tip">MrBeast</p>
+                                </div>
+                            <P class="video-stats">43M views &#183; 4 days ago</P>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/95Ueq7CaiXI">
+                        <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="">
+                        <div class="video-time">41:03</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/user/gordonramsay">
+                            <img class="profile-pic" src="channel-icons/channel-8.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/95Ueq7CaiXI">
+                            <p class="video-title">Gordon Ramsay Disgusted At Being Served Three Week Old Food | Kitchen Nightmares FULL EP</p>
+                            </a>    
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/user/gordonramsay">
+                                    <P class="video-author">Gordon Ramsay &#10004;</P>
+                                    </a>
+                                    <p class="tool-tip">Gordon Ramsay</p>
+                                </div>
+                            <P class="video-stats">20K views &#183; 4 hours ago</P>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/mNBP9KThhY8">
+                        <img class="thumbnail" src="thumbnails/thumbnail-9.webp" alt="">
+                        <div class="video-time">7:38</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/IrfanJunejo">
+                            <img class="profile-pic" src="channel-icons/channel-9.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/mNBP9KThhY8">
+                            <p class="video-title">SEHAT CARD - The Real Truth</p>
+                            </a>    
+                                <div class="video-tooling">
+                                    <a href="https://www.youtube.com/c/IrfanJunejo">
+                                    <P class="video-author">Irfan Junejo &#10004;</P>
+                                    </a>
+                                    <p class="tool-tip">Irfan Junejo</p>
+                                </div>
+                            <P class="video-stats">302K views &#183; 2 weeks ago</P>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
